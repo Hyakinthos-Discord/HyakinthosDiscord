@@ -33,7 +33,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/Hyakinthos-Discord/bot
+          images: ghcr.io/hyakinthos-discord/bot
           tags: |
             # For version tags (v1.2.3)
             type=ref,event=tag
